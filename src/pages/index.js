@@ -7,10 +7,9 @@ import styles from "@/styles/Home.module.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-
-  useEffect(()=>{
+  useEffect(() => {
     console.log("Index page did mount");
-  },[])
+  }, []);
 
   return (
     <>
@@ -24,10 +23,19 @@ export default function Home() {
         <div>
           <div>
             <h1>This is the home page</h1>
-            <h3>This is also one of the most unstyled page I have ever made...</h3>
+            <h3>
+              This is also one of the most unstyled page I have ever made...
+            </h3>
             <h4>Check the links bellow:</h4>
-            <Link href="/about">About</Link><br/>
-            <Link href="/terms">Terms of Use</Link>
+            <ul>
+              <li>
+                <Link href="/about">About</Link>
+                <br />
+              </li>
+              <li>
+                <Link href="/terms">Terms of Use</Link>
+              </li>
+            </ul>
           </div>
         </div>
       </main>

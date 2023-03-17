@@ -29,8 +29,9 @@ export default function About() {
       </p>
       <br />
       <br />
-
-      <Link href="/">Home</Link>
+      <li>
+        <Link href="/">Home</Link>
+      </li>
     </>
   );
 }
