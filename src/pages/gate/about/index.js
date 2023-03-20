@@ -30,7 +30,7 @@ export default function About() {
       <br />
       <br />
       <li>
-        <Link href="/">Home</Link>
+        <Link href="/gate">Home</Link>
       </li>
     </>
   );
